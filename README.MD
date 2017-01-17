@@ -61,13 +61,15 @@ running
 
 ### 2.Downloading Input files
 
-1. Download the following [linktocome] to the folder on your drive
-where you have saved the repository
+1. Download the following [file]
+(https://yelp-toav.s3.amazonaws.com/yelp-toav/yelp-nyex_pickles.tar.gz) to the
+root folder on your drive where you have saved the repository
 2. Untar the file. This should copy the files to the relevant folders and
 subfolders within the repository. You can do this by typing the following
-terminal command in bash (Windows users will have to user other tools):
+terminal command in bash (Windows users will have to user other tools) from the
+root directory once the file has been copied there:
 
-`tar xzvf [nameto come]`
+`tar xzvf yelp-nyex_pickles.tar.gz`
 
 Please note that the original files from the challenge are not provided.
 They are required to perform the first steps of the notebooks (Notebooks A to E).
@@ -113,7 +115,9 @@ You can now navigate the notebooks at your leisure.
 Python Markdown (only used in the Exploratory notebook) to display correctly
 so that Jupyter text cells can update dynamically with inline code.
 
-7. You're done! You may run any of the notebooks as required.
+7. You're done! You may run any of the notebooks E, 1 and 2 as required.
+Notebooks A to D require downloading the raw data as described elsewhere in this
+file.
 
 
 ## Repository Structure <a name='structure'></a>
