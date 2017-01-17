@@ -54,8 +54,8 @@ into memory errors.**
 Follow the instructions in the link if not and ensure the Docker daemon is
 running
 3. Build the Docker image. Two options:
-  * Either build the image locally in the root folder where the
-  `Dockerfile` is located by typing the following command in the terminal:
+  * Either build the image locally **in the root folder where the
+  `Dockerfile` is located** by typing the following command in the terminal:
   `docker build -t toavina/nyex .` or
   * Download the Docker image directly from [linktocome]
 
