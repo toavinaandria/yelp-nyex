@@ -141,7 +141,9 @@ highlighted above for efficiency
 
 ### Other Folders
 
-* pickles - Contains serialized Python objects used to load data
+* pickles - Contains serialized Python objects used to load data. Many of the
+folders are empty but populated either by the scripts or downloaded as part
+of step 2 above.
 * presentation - Contains the latest version of the presentation that
 accompanies the notebooks
 * raw_data - An empty folder where you can put the original raw files for the
