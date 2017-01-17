@@ -95,6 +95,9 @@ command:
 
 `jupyter notebook --ip='*' --port=8888 --no-browser`
 
+Alternatively, you can run the `bash` script in the root folder which will run
+the same command for you by typing `./remotejupyter.sh` in the terminal.
+
 
 3. Open a browser on your local machine and navigate to http://localhost:8888.
 You can now navigate the notebooks at your leisure.
@@ -133,6 +136,8 @@ collaborative filtering as a restaurant recommender system
 * Dockerfile - Can be used to build the Docker image locally by following the
 instructions above instead of downloading the image from Docker Hub.
 * README.MD - This file.
+* remotejupyter.sh - A bash script which runs the Jupyter notebook command
+highlighted above for efficiency
 
 ### Other Folders
 
