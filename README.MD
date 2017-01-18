@@ -62,7 +62,7 @@ running
 ### 2.Downloading Input files
 
 1. Download the following [file]
-(https://yelp-toav.s3.amazonaws.com/yelp-toav/yelp-nyex_pickles.tar.gz) to the
+(https://s3.amazonaws.com/yelp-toav/yelp-nyex_pickles.tar.gz) to the
 root folder on your drive where you have saved the repository
 2. Untar the file. This should copy the files to the relevant folders and
 subfolders within the repository. You can do this by typing the following
