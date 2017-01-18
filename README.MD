@@ -53,11 +53,11 @@ into memory errors.**
 2. Ensure you have [Docker](https://www.docker.com) installed and running.
 Follow the instructions in the link if not and ensure the Docker daemon is
 running
-3. Build the Docker image. Two options:
-  * Either build the image locally **in the root folder where the
+3. Build the Docker image locally **in the root folder where the
   `Dockerfile` is located** by typing the following command in the terminal:
-  `docker build -t toavina/nyex .` or
-  * Download the Docker image directly from [linktocome]
+  `docker build -t toavina/nyex .`
+
+
 
 ### 2.Downloading Input files
 
@@ -79,7 +79,8 @@ download the raw data if available.
 
 ### 3.Running the Docker Container and Jupyter Notebook server
 
-1. Assuming the Docker image you built is called `toavina/nyex`  and you have
+1. Assuming the Docker image you built is called `toavina/nyex` and is tagged as
+`latest` (run `docker images` to see which images are installed)  and you have
 saved the repository to the `/yelp` folder (replace as necessary in the command
 below),run the following command
 
